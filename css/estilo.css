@@ -1,0 +1,57 @@
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/RobotoMono-Regular.ttf') format('ttf'); 
+    font-weight: normal; 
+    font-style: normal; 
+ }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+
+
+body{
+    background: #F2DFCE;
+    font-family: 'Roboto', sans-serif; 
+      
+}
+ 
+div{width: 600px;}
+ 
+#rosa{
+    position: relative;
+    background: #2e915a;
+    color: cadetblue;
+    top: 170px; left: 200px;
+    width: 400px;
+    z-index: 1;
+}
+ 
+div:nth-child(2){
+    background: #F24162;
+    width: 600px;
+}
+ 
+li:nth-child(2){
+    background: #032859;
+    color: white;
+}
+ 
+:nth-child(3){
+    background: #29A5F2;
+}
+ 
+:nth-child(4){
+    background: #F2E852;
+}
+ 
+:nth-child(5){
+    background: #F2D16D;
+}
+
+li:nth-child(odd) {
+    background: rgb(218, 252, 25);
+  }
+ 
+  li:nth-child(even) {
+    background: rgb(252, 71, 177);
+  }
